@@ -1,0 +1,42 @@
+#imagedata {
+    height: 180vh;
+
+    .container {
+        margin-top: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: absolute;
+        background-position: center;
+        gap: 70px;
+
+        img {
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        img:hover {
+            opacity: 0.5;
+        }
+
+        .img1,
+        .img3 {
+            margin-top: -12.5%;
+        }
+
+        .img4,
+        .img6 {
+            margin-top: -18%;
+        }
+
+        .img8 {
+            margin-top: 1%;
+        }
+
+        .img7,
+        .img9 {
+            margin-top: -5.5%;
+        }
+    }
+}

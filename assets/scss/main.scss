@@ -1,0 +1,16 @@
+@import './partials/nav';
+@import './partials/about';
+@import './partials/imagedata';
+@import './partials/contact';
+@import './partials/footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
